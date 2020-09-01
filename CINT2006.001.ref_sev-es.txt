@@ -1,0 +1,177 @@
+##############################################################################
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+#                                                                            #
+# Your run was marked invalid because it has one or more flags in the        #
+# "unknown" category. You might be able to resolve this problem without      #
+# re-running your test; see                                                  #
+#      http://www.spec.org/auto/cpu2006/Docs/runspec.html#flagsurl           #
+# for more information.                                                      #
+#                                                                            #
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+##############################################################################
+                           SPEC(R) CINT2006 Summary
+                      Tyan Tyan Thunder KKQS Pro (S4882)
+                           Thu Aug 27 17:02:44 2020
+
+CPU2006 License: 0                                       Test date: Aug-2020
+Test sponsor: Turbo Computers                Hardware availability: Dec-9999
+Tested by:    Turbo Computers                Software availability: Dec-9999
+
+                                  Estimated                       Estimated
+                Base     Base       Base        Peak     Peak       Peak
+Benchmarks      Ref.   Run Time     Ratio       Ref.   Run Time     Ratio
+-------------- ------  ---------  ---------    ------  ---------  ---------
+400.perlbench                               NR                                 
+401.bzip2        9650        415       23.3 *                                  
+401.bzip2        9650        465       20.8 S                                  
+401.bzip2        9650        371       26.0 S                                  
+403.gcc          8050        248       32.5 S                                  
+403.gcc          8050        232       34.6 S                                  
+403.gcc          8050        236       34.2 *                                  
+429.mcf          9120        209       43.6 *                                  
+429.mcf          9120        211       43.3 S                                  
+429.mcf          9120        201       45.5 S                                  
+445.gobmk       10490        387       27.1 S                                  
+445.gobmk       10490        428       24.5 *                                  
+445.gobmk       10490        438       24.0 S                                  
+456.hmmer        9330        292       31.9 S                                  
+456.hmmer        9330        324       28.8 *                                  
+456.hmmer        9330        335       27.9 S                                  
+458.sjeng       12100        484       25.0 S                                  
+458.sjeng       12100        506       23.9 S                                  
+458.sjeng       12100        496       24.4 *                                  
+462.libquantum  20720        166      125   S                                  
+462.libquantum  20720        170      122   *                                  
+462.libquantum  20720        172      121   S                                  
+464.h264ref     22130        694       31.9 *                                  
+464.h264ref     22130        700       31.6 S                                  
+464.h264ref     22130        644       34.4 S                                  
+471.omnetpp      6250        273       22.9 S                                  
+471.omnetpp      6250        273       22.9 *                                  
+471.omnetpp      6250        263       23.8 S                                  
+473.astar        7020        326       21.5 S                                  
+473.astar        7020        431       16.3 S                                  
+473.astar        7020        395       17.8 *                                  
+483.xalancbmk                               NR                                 
+==============================================================================
+400.perlbench                               NR                                 
+401.bzip2        9650        415       23.3 *                                  
+403.gcc          8050        236       34.2 *                                  
+429.mcf          9120        209       43.6 *                                  
+445.gobmk       10490        428       24.5 *                                  
+456.hmmer        9330        324       28.8 *                                  
+458.sjeng       12100        496       24.4 *                                  
+462.libquantum  20720        170      122   *                                  
+464.h264ref     22130        694       31.9 *                                  
+471.omnetpp      6250        273       22.9 *                                  
+473.astar        7020        395       17.8 *                                  
+483.xalancbmk                               NR                                 
+ Est. SPECint(R)_base2006              31.4
+ Est. SPECint2006                                                   Not Run
+
+
+                                   HARDWARE
+                                   --------
+            CPU Name: AMD Opteron 256
+ CPU Characteristics:  
+             CPU MHz: 3000
+                 FPU: Integrated
+      CPU(s) enabled: 1 core, 1 chip, 1 core/chip
+    CPU(s) orderable: 1 chip
+       Primary Cache: 64 KB I + 64 KB D on chip per chip
+     Secondary Cache: 1 MB I+D on chip per chip
+            L3 Cache: None
+         Other Cache: None
+              Memory: 2 GB (2 x 1GB DDR333 CL2.5)
+      Disk Subsystem: SATA
+      Other Hardware: --
+
+
+                                   SOFTWARE
+                                   --------
+    Operating System: SUSE SLES9 (for AMD64)
+            Compiler: gcc , g++ & gfortran 4.2.0325 (for AMD64)
+       Auto Parallel: No
+         File System: ext3
+        System State: runlevel 3
+       Base Pointers: 64-bit
+       Peak Pointers: Not Applicable
+      Other Software: None
+
+
+                                General Notes
+                                -------------
+     PORTABILITY=-DSPEC_CPU_LP64 is applied to all benchmarks in base.
+     462.libquantum: -DSPEC_CPU_LINUX
+     C base flags: -O2
+     C++ base flags: -O2
+     Fortran base flags: -O2
+
+                              Base Unknown Flags
+                              ------------------
+      401.bzip2: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                 "-O2" (in COPTIMIZE)
+
+        403.gcc: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                 "-O2" (in COPTIMIZE)
+
+        429.mcf: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                 "-O2" (in COPTIMIZE)
+
+      445.gobmk: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                 "-O2" (in COPTIMIZE)
+
+      456.hmmer: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                 "-O2" (in COPTIMIZE)
+
+      458.sjeng: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                 "-O2" (in COPTIMIZE)
+
+ 462.libquantum: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                 "-O2" (in COPTIMIZE)
+
+    464.h264ref: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                 "-O2" (in COPTIMIZE)
+
+    471.omnetpp: "/usr/bin/g++" (in CXX) "/usr/bin/g++" (in LD)
+                 "-O2" (in CXXOPTIMIZE)
+
+      473.astar: "/usr/bin/g++" (in CXX) "/usr/bin/g++" (in LD)
+                 "-O2" (in CXXOPTIMIZE)
+
+
+                            Base Portability Flags
+                            ----------------------
+      401.bzip2: -DSPEC_CPU_LP64
+        403.gcc: -DSPEC_CPU_LP64
+        429.mcf: -DSPEC_CPU_LP64
+      445.gobmk: -DSPEC_CPU_LP64
+      456.hmmer: -DSPEC_CPU_LP64
+      458.sjeng: -DSPEC_CPU_LP64
+ 462.libquantum: -DSPEC_CPU_LP64 -DSPEC_CPU_LINUX
+    464.h264ref: -DSPEC_CPU_LP64
+    471.omnetpp: -DSPEC_CPU_LP64
+      473.astar: -DSPEC_CPU_LP64
+
+
+    SPEC and SPECint are registered trademarks of the Standard Performance
+    Evaluation Corporation.  All other brand and product names appearing
+    in this result are trademarks or registered trademarks of their
+    respective holders.
+##############################################################################
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+#                                                                            #
+# Your run was marked invalid because it has one or more flags in the        #
+# "unknown" category. You might be able to resolve this problem without      #
+# re-running your test; see                                                  #
+#      http://www.spec.org/auto/cpu2006/Docs/runspec.html#flagsurl           #
+# for more information.                                                      #
+#                                                                            #
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+##############################################################################
+-----------------------------------------------------------------------------
+For questions about this result, please contact the tester.
+For other inquiries, please contact webmaster@spec.org.
+Copyright 2007 Standard Performance Evaluation Corporation
+Tested with SPEC CPU2006 v103.
+Report generated on Thu Aug 27 20:18:40 2020 by CPU2006 ASCII formatter v5493.

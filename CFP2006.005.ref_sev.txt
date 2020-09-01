@@ -1,0 +1,207 @@
+##############################################################################
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+#                                                                            #
+# Your run was marked invalid because it has one or more flags in the        #
+# "unknown" category. You might be able to resolve this problem without      #
+# re-running your test; see                                                  #
+#      http://www.spec.org/auto/cpu2006/Docs/runspec.html#flagsurl           #
+# for more information.                                                      #
+#                                                                            #
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+##############################################################################
+                           SPEC(R) CFP2006 Summary
+                      Tyan Tyan Thunder KKQS Pro (S4882)
+                           Fri Aug 28 18:45:04 2020
+
+CPU2006 License: 0                                       Test date: Aug-2020
+Test sponsor: Turbo Computers                Hardware availability: Dec-9999
+Tested by:    Turbo Computers                Software availability: Dec-9999
+
+                                  Estimated                       Estimated
+                Base     Base       Base        Peak     Peak       Peak
+Benchmarks      Ref.   Run Time     Ratio       Ref.   Run Time     Ratio
+-------------- ------  ---------  ---------    ------  ---------  ---------
+410.bwaves      13590        301       45.1 S                                  
+410.bwaves      13590        315       43.2 S                                  
+410.bwaves      13590        305       44.6 *                                  
+416.gamess                                  NR                                 
+433.milc         9180        413       22.2 S                                  
+433.milc         9180        417       22.0 *                                  
+433.milc         9180        420       21.9 S                                  
+434.zeusmp       9100        330       27.5 S                                  
+434.zeusmp       9100        331       27.5 *                                  
+434.zeusmp       9100        332       27.4 S                                  
+435.gromacs      7140        351       20.3 S                                  
+435.gromacs      7140        351       20.3 *                                  
+435.gromacs      7140        361       19.8 S                                  
+436.cactusADM   11950        474       25.2 *                                  
+436.cactusADM   11950        474       25.2 S                                  
+436.cactusADM   11950        477       25.0 S                                  
+437.leslie3d     9400        284       33.1 S                                  
+437.leslie3d     9400        285       33.0 *                                  
+437.leslie3d     9400        296       31.7 S                                  
+444.namd         8020        408       19.7 *                                  
+444.namd         8020        408       19.7 S                                  
+444.namd         8020        412       19.5 S                                  
+447.dealII                                  NR                                 
+450.soplex                                  NR                                 
+453.povray       5320        134       39.7 *                                  
+453.povray       5320        131       40.5 S                                  
+453.povray       5320        137       38.8 S                                  
+454.calculix     8250        608       13.6 S                                  
+454.calculix     8250        608       13.6 *                                  
+454.calculix     8250        636       13.0 S                                  
+459.GemsFDTD    10610        356       29.8 *                                  
+459.GemsFDTD    10610        355       29.9 S                                  
+459.GemsFDTD    10610        368       28.8 S                                  
+465.tonto        9840        448       22.0 *                                  
+465.tonto        9840        447       22.0 S                                  
+465.tonto        9840        457       21.5 S                                  
+470.lbm         13740        335       41.0 S                                  
+470.lbm         13740        334       41.1 S                                  
+470.lbm         13740        334       41.1 *                                  
+481.wrf                                     NR                                 
+482.sphinx3     19490        396       49.2 S                                  
+482.sphinx3     19490        397       49.1 S                                  
+482.sphinx3     19490        397       49.1 *                                  
+==============================================================================
+410.bwaves      13590        305       44.6 *                                  
+416.gamess                                  NR                                 
+433.milc         9180        417       22.0 *                                  
+434.zeusmp       9100        331       27.5 *                                  
+435.gromacs      7140        351       20.3 *                                  
+436.cactusADM   11950        474       25.2 *                                  
+437.leslie3d     9400        285       33.0 *                                  
+444.namd         8020        408       19.7 *                                  
+447.dealII                                  NR                                 
+450.soplex                                  NR                                 
+453.povray       5320        134       39.7 *                                  
+454.calculix     8250        608       13.6 *                                  
+459.GemsFDTD    10610        356       29.8 *                                  
+465.tonto        9840        448       22.0 *                                  
+470.lbm         13740        334       41.1 *                                  
+481.wrf                                     NR                                 
+482.sphinx3     19490        397       49.1 *                                  
+ Est. SPECfp(R)_base2006               28.0
+ Est. SPECfp2006                                                    Not Run
+
+
+                                   HARDWARE
+                                   --------
+            CPU Name: AMD Opteron 256
+ CPU Characteristics:  
+             CPU MHz: 3000
+                 FPU: Integrated
+      CPU(s) enabled: 1 core, 1 chip, 1 core/chip
+    CPU(s) orderable: 1 chip
+       Primary Cache: 64 KB I + 64 KB D on chip per chip
+     Secondary Cache: 1 MB I+D on chip per chip
+            L3 Cache: None
+         Other Cache: None
+              Memory: 2 GB (2 x 1GB DDR333 CL2.5)
+      Disk Subsystem: SATA
+      Other Hardware: --
+
+
+                                   SOFTWARE
+                                   --------
+    Operating System: SUSE SLES9 (for AMD64)
+            Compiler: gcc , g++ & gfortran 4.2.0325 (for AMD64)
+       Auto Parallel: No
+         File System: ext3
+        System State: runlevel 3
+       Base Pointers: 64-bit
+       Peak Pointers: Not Applicable
+      Other Software: None
+
+
+                                General Notes
+                                -------------
+     PORTABILITY=-DSPEC_CPU_LP64 is applied to all benchmarks in base.
+     C base flags: -O2
+     C++ base flags: -O2
+     Fortran base flags: -O2
+
+                              Base Unknown Flags
+                              ------------------
+    410.bwaves: "/usr/bin/gfortran" (in FC) "/usr/bin/gfortran" (in LD)
+                "-O2" (in FOPTIMIZE)
+
+      433.milc: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                "-O2" (in COPTIMIZE)
+
+    434.zeusmp: "/usr/bin/gfortran" (in FC) "/usr/bin/gfortran" (in LD)
+                "-O2" (in FOPTIMIZE)
+
+   435.gromacs: "/usr/bin/gfortran" (in FC) "/usr/bin/gcc" (in CC)
+                "/usr/bin/gfortran" (in LD) "-O2" (in FOPTIMIZE)
+                "-O2" (in COPTIMIZE)
+
+ 436.cactusADM: "/usr/bin/gfortran" (in FC) "/usr/bin/gcc" (in CC)
+                "/usr/bin/gfortran" (in LD) "-O2" (in FOPTIMIZE)
+                "-O2" (in COPTIMIZE)
+
+  437.leslie3d: "/usr/bin/gfortran" (in FC) "/usr/bin/gfortran" (in LD)
+                "-O2" (in FOPTIMIZE)
+
+      444.namd: "/usr/bin/g++" (in CXX) "/usr/bin/g++" (in LD)
+                "-O2" (in CXXOPTIMIZE)
+
+    453.povray: "/usr/bin/g++" (in CXX) "/usr/bin/g++" (in LD)
+                "-O2" (in CXXOPTIMIZE)
+
+  454.calculix: "/usr/bin/gfortran" (in FC) "/usr/bin/gcc" (in CC)
+                "/usr/bin/gfortran" (in LD) "-O2" (in FOPTIMIZE)
+                "-O2" (in COPTIMIZE)
+
+  459.GemsFDTD: "/usr/bin/gfortran" (in FC) "/usr/bin/gfortran" (in LD)
+                "-O2" (in FOPTIMIZE)
+
+     465.tonto: "/usr/bin/gfortran" (in FC) "/usr/bin/gfortran" (in LD)
+                "-O2" (in FOPTIMIZE)
+
+       470.lbm: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                "-O2" (in COPTIMIZE)
+
+   482.sphinx3: "/usr/bin/gcc" (in CC) "/usr/bin/gcc" (in LD)
+                "-O2" (in COPTIMIZE)
+
+
+                            Base Portability Flags
+                            ----------------------
+    410.bwaves: -DSPEC_CPU_LP64
+      433.milc: -DSPEC_CPU_LP64
+    434.zeusmp: -DSPEC_CPU_LP64
+   435.gromacs: -DSPEC_CPU_LP64
+ 436.cactusADM: -DSPEC_CPU_LP64
+  437.leslie3d: -DSPEC_CPU_LP64
+      444.namd: -DSPEC_CPU_LP64
+    453.povray: -DSPEC_CPU_LP64
+  454.calculix: -DSPEC_CPU_LP64
+  459.GemsFDTD: -DSPEC_CPU_LP64
+     465.tonto: -DSPEC_CPU_LP64
+       470.lbm: -DSPEC_CPU_LP64
+   482.sphinx3: -DSPEC_CPU_LP64
+
+
+    SPEC and SPECfp are registered trademarks of the Standard Performance
+    Evaluation Corporation.  All other brand and product names appearing
+    in this result are trademarks or registered trademarks of their
+    respective holders.
+##############################################################################
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+#                                                                            #
+# Your run was marked invalid because it has one or more flags in the        #
+# "unknown" category. You might be able to resolve this problem without      #
+# re-running your test; see                                                  #
+#      http://www.spec.org/auto/cpu2006/Docs/runspec.html#flagsurl           #
+# for more information.                                                      #
+#                                                                            #
+#   INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN -- INVALID RUN  #
+##############################################################################
+-----------------------------------------------------------------------------
+For questions about this result, please contact the tester.
+For other inquiries, please contact webmaster@spec.org.
+Copyright 2007 Standard Performance Evaluation Corporation
+Tested with SPEC CPU2006 v103.
+Report generated on Fri Aug 28 23:07:46 2020 by CPU2006 ASCII formatter v5493.
